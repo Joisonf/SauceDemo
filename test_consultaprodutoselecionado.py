@@ -18,6 +18,7 @@ class TestConsultaprodutoselecionado():
   def teardown_method(self, method):
     self.driver.quit()
   
+  
   def test_consultaprodutoselecionado(self):
     self.driver.get("https://www.saucedemo.com/")
     self.driver.set_window_size(1936, 1056)
@@ -38,4 +39,5 @@ class TestConsultaprodutoselecionado():
     assert self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"inventory-item-price\"]").text == "$29.99"
     self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"remove-sauce-labs-backpack\"]").click()
     self.driver.find_element(By.CSS_SELECTOR, "*[data-test=\"continue-shopping\"]").click()
+
   

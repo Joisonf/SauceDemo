@@ -9,6 +9,7 @@ class TestConsultaprodutoselecionado():
   # 2.1 Atributos
   url = "https://www.saucedemo.com"
 
+
   # 2.2 Funções e metodos
   def setup_method(self, method):
     self.driver = webdriver.Chrome()
