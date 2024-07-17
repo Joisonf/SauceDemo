@@ -19,11 +19,11 @@ Feature: Selecionar Produto
    Examples:
    | id | usuario       | senha        | mensagem                                                                    |
    | 01 | standard_user | laranja      | Epic sadface: Username and password do not match any user in this service   |
-   | 02 | standard_user |              | Epic sadface: password is required                                          |
+   | 02 | standard_user |              | Epic sadface: Password is required                                          |
    | 03 |               | secret_sauce | Epic sadface: Username is required                                          |
    | 04 | juca          | secret_sauce | Epic sadface: Username and password do not match any user in this service   |
    | 05 | juca          | laranja      | Epic sadface: Username and password do not match any user in this service   |
-   | 06 | juca          |              | Epic sadface: password is required                                          |
+   | 06 | juca          |              | Epic sadface: Password is required                                          |
    | 07 |               |              | Epic sadface: Username is required                                          |
    | 08 |               | laranja      | Epic sadface: Username is required                                          |
    
